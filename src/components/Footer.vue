@@ -1,7 +1,7 @@
 <template>
   <footer class="mastfoot mt-auto">
     <div class="inner">
-      <p>This page is created by <a href="https://twitter.com/lelesay">@エツ</a></p>
+      <p>About us</p>
     </div>
   </footer>
 </template>
