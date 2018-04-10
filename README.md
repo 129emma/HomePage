@@ -1,6 +1,10 @@
-# trysecondtime
 
-> A Vue.js project
+
+![Github Releases](https://img.shields.io/github/realease/129emma/HomePage.svg)
+
+# Introduction
+
+> A Vue.js project for personal website
 
 ## Build Setup
 

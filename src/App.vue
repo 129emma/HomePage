@@ -13,6 +13,7 @@
 <script>
   import footer from './components/Footer.vue';
   import context from './components/Context.vue';
+  import aboutUs from './components/AboutUs';
 
   export default {
     components:{
