@@ -1,6 +1,10 @@
 
 
+<<<<<<< HEAD
 ![](https://img.shields.io/github/commits-since/129emma/HomePage/beta1.0.svg?style=social)     
+=======
+![](https://img.shields.io/github/realease/129emma/HomePage.svg)
+>>>>>>> 4d8bd19f3ee6dafbce1cb47e6c57af3c1f11bddf
 
 # Introduction
 
