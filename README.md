@@ -1,6 +1,6 @@
 
 
-![Github Releases](https://img.shields.io/github/realease/129emma/HomePage.svg)
+![](https://img.shields.io/github/commits-since/129emma/HomePage/beta1.0.svg?style=social)     
 
 # Introduction
 
