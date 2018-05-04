@@ -1,12 +1,21 @@
 <template>
-  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 
-    <web-context>
+ 
+  <div class="layout">
+    <Layout>
+    <Header>
+     
+    <web-header>
+    </web-header>  
+
+    <!-- <web-context>
     </web-context>
 
     <web-footer>
-    </web-footer>
+    </web-footer> -->
 
+    </Header> 
+    </Layout>
   </div>
 </template>
 
@@ -14,11 +23,14 @@
   import footer from './components/Footer.vue';
   import context from './components/Context.vue';
   import aboutUs from './components/AboutUs';
+  import menu from './components/Menu';
 
   export default {
     components:{
-      'web-context': context,
-      'web-footer' : footer
+      'web-header':menu
+      // 'web-context': context,
+      // 'web-footer' : footer,
+      
     }
 
   }
@@ -53,7 +65,7 @@
     color: #fff;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    background-image: url("./assets/background.jpg");
+    /* background-image: url("./assets/background.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
