@@ -1,6 +1,6 @@
 
 
-![](https://img.shields.io/github/commits-since/129emma/HomePage/beta1.0.svg?style=social)     
+![](http://progressed.io/bar/10?title=progress)     
 
 # Introduction
 
