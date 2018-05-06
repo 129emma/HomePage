@@ -1,79 +1,54 @@
 <template>
 
  
-  <div class="layout">
+  <!-- <div class="layout">
     <Layout>
     <Header>
      
     <web-header>
     </web-header>  
-
-    <!-- <web-context>
-    </web-context>
+    </Header> 
+    <web-content>
+    </web-content>
 
     <web-footer>
-    </web-footer> -->
+    </web-footer>
 
-    </Header> 
+    
     </Layout>
-  </div>
+  </div> -->
+
+  <welcome-page>
+  </welcome-page>  
+
+
+
 </template>
 
 <script>
   import footer from './components/Footer.vue';
-  import context from './components/Context.vue';
+  import content from './components/Content.vue';
   import aboutUs from './components/AboutUs';
   import menu from './components/Menu';
+  import welcomePage from './components/MainPage'
 
   export default {
     components:{
-      'web-header':menu
-      // 'web-context': context,
-      // 'web-footer' : footer,
-      
+      'web-header':menu,
+      'web-content': content,
+      'web-footer' : footer,
+      'welcome-page':welcomePage
     }
 
   }
+
+ 
+ 
 </script>
 
 <style>
 
-  /* Links */
-  a,
-  a:focus,
-  a:hover {
-    color: #fff;
-  }
 
-  /*
-  * Base structure
-  */
-
-  html,
-  body {
-    height: 100%;
-    background-color: #333;
-  }
-
-  body {
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-pack: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    color: #fff;
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    /* background-image: url("./assets/background.jpg"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .cover-container {
-    max-width: 42em;
-  }
 
 
 </style>

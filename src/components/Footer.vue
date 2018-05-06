@@ -1,21 +1,11 @@
 <template>
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p>About us</p>
-    </div>
-  </footer>
+ <Footer class="layout-footer-center">2011-2016 &copy; TalkingData</Footer>
 </template>
 
 <script>
 </script>
 
 <style scoped>
-p {
-  margin-bottom: 0;
-  font-size: .8em;
-}
-p, a{
-  color: rgba(255, 255, 255, 0.6);
-}
+
 
 </style>

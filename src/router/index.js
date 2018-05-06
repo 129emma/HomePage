@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Context from '@/components/Context'
+import Context from '@/components/Content'
 
 Vue.use(Router)
 
